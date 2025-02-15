@@ -1,10 +1,10 @@
 package org.example;
 
-public class CityService {
+public class City {
     private String cityName;
     private int population;
 
-    public CityService(String cityName, int population) {
+    public City(String cityName, int population) {
         this.cityName = cityName;
         this.population = population;
     }

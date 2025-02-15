@@ -8,23 +8,23 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "org.example")
 public class ProjectConfig {
     @Bean(name = "cityService1")
-    public CityService cityService1() {
-        return new CityService("Нью-Йорк", 8419600);
+    public City cityService1() {
+        return new City("Нью-Йорк", 8419600);
     }
 
     @Bean(name = "cityService2")
-    public CityService cityService2() {
-        return new CityService("Лондон", 8982000);
+    public City cityService2() {
+        return new City("Лондон", 8982000);
     }
 
     @Bean(name = "cityService3")
-    public CityService cityService3() {
-        return new CityService("Токио", 13929286);
+    public City cityService3() {
+        return new City("Токио", 13929286);
     }
 
     @Bean(name = "cityService4")
-    public CityService cityService4() {
-        return new CityService("Париж", 2148000);
+    public City cityService4() {
+        return new City("Париж", 2148000);
     }
 
 }
