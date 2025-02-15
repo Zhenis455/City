@@ -10,9 +10,9 @@ public class Main {
         City cityService2 = context.getBean("cityService2", City.class);
         City cityService3 = context.getBean("cityService3", City.class);
         City cityService4 = context.getBean("cityService4", City.class);
-        System.out.println("Город: " + cityService1.getCityName() + ", Население: " + cityService1.getPopulation());
-        System.out.println("Город: " + cityService2.getCityName() + ", Население: " + cityService2.getPopulation());
-        System.out.println("Город: " + cityService3.getCityName() + ", Население: " + cityService3.getPopulation());
-        System.out.println("Город: " + cityService4.getCityName() + ", Население: " + cityService4.getPopulation());
+        System.out.println("Город: " + cityService1.cityName() + ", Население: " + cityService1.population());
+        System.out.println("Город: " + cityService2.cityName() + ", Население: " + cityService2.population());
+        System.out.println("Город: " + cityService3.cityName() + ", Население: " + cityService3.population());
+        System.out.println("Город: " + cityService4.cityName() + ", Население: " + cityService4.population());
     }
 }
