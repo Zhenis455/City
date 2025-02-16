@@ -1,10 +1,9 @@
 package org.example;
-
 import org.springframework.stereotype.Component;
 
 @Component
-public class Person {
-    private String name;
+public class Profession {
+    private String name = "Программист";
 
     public String getName() {
         return name;
@@ -13,5 +12,4 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
-
 }
