@@ -1,10 +1,8 @@
 package org.example;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 @Service
-@Qualifier
 public class AlternativeInventoryService implements InventoryService {
     private final ProductRepository repository;
 
